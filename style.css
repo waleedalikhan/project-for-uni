@@ -1,0 +1,43 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.main {
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url("./mountains.jpg") center / cover no-repeat;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.main .info ul {
+	list-style: none;
+}
+
+.main .info ul li {
+	display: inline-block;
+}
+
+.main .info h1 {
+	color: white;
+	margin-bottom: 7rem;
+}
+
+.main .info ul li a {
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 5rem;
+}
+
+.main .info ul li a:hover {
+	background-color: white;
+	color: black;
+}
